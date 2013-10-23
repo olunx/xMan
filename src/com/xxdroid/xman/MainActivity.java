@@ -1,4 +1,4 @@
-package com.xxdroid.XMagager;
+package com.xxdroid.xman;
 
 import android.app.Activity;
 import android.os.Bundle;
