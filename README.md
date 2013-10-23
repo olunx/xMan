@@ -1,4 +1,4 @@
-XManager
+xMan
 ========
 
 Manage your iOS/Android devices on android.
