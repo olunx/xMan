@@ -10,7 +10,7 @@ mkdir -p $BIN_DIR
 
 # Install so
 echo "----------Install so--------------"
-for S in libiconv.so libxml2.so libplist.so libplist++.so libusb.so libusbmuxd.so libcrypto.so libssl.so libimobiledevice.so libzip.so
+for S in libiconv.so libxml2.so libplist.so libplist++.so libusb.so libusbmuxd.so libcrypto.so libssl.so libimobiledevice.so libzip.so libidevice.so
 do
   rm "$LIBS_DIR/$S"
   cp "$SRC_DIR/$S" $LIBS_DIR

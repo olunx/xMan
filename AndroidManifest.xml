@@ -21,7 +21,7 @@
 		        android:theme="@android:style/Theme.Holo.Light"
 		        android:uiOptions="splitActionBarWhenNarrow">
 		        <activity
-		            android:name=".ui.FileExplorerTabActivity"
+		            android:name=".MainActivity"
 		            android:configChanges="screenSize|keyboardHidden"
 		            android:screenOrientation="sensor"
 		            android:uiOptions="splitActionBarWhenNarrow">
