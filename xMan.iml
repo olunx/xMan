@@ -18,6 +18,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="android-support-v13" level="project" />
+    <orderEntry type="library" name="xUtils-1.7.8" level="project" />
   </component>
 </module>
 
