@@ -148,14 +148,14 @@
                     android:layout_height="0dip" android:layout_weight="1"
                     android:orientation="horizontal"
                     android:layout_gravity="center">
-                    <LinearLayout android:id="@+id/category_theme"
+                    <LinearLayout android:id="@+id/category_app"
                         style="@style/CategoryButtonStyle"
                         android:background="@drawable/category_button_left">
                         <ImageView android:src="@drawable/category_icon_theme"
                             style="@style/CategoryButtonIconStyle" />
-                        <TextView android:text="@string/category_theme"
+                        <TextView android:text="@string/category_app"
                             style="@style/CategoryButtonTextStyle" />
-                        <TextView android:id="@+id/category_theme_count"
+                        <TextView android:id="@+id/category_app_count"
                             style="@style/CategoryButtonCountTextStyle" />
                     </LinearLayout>
                     <LinearLayout android:id="@+id/category_document"
@@ -256,7 +256,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20px"
                         android:layout_marginBottom="5dip">
-                        <TextView android:id="@+id/category_legend_theme"
+                        <TextView android:id="@+id/category_legend_app"
                             style="@style/CategoryLegendStyle"
                             android:drawableLeft="@drawable/legend_theme" />
                         <TextView android:id="@+id/category_legend_document"

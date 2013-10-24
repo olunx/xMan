@@ -222,7 +222,7 @@
 					</LinearLayout>
 
 					<LinearLayout
-						android:id="@+id/category_theme"
+						android:id="@+id/category_app"
 						style="@style/CategoryButtonStyle"
 						android:background="@drawable/category_button_top" >
 
@@ -232,10 +232,10 @@
 
 						<TextView
 							style="@style/CategoryButtonTextStyle"
-							android:text="@string/category_theme" />
+							android:text="@string/category_app" />
 
 						<TextView
-							android:id="@+id/category_theme_count"
+							android:id="@+id/category_app_count"
 							style="@style/CategoryButtonCountTextStyle" />
 					</LinearLayout>
 				</LinearLayout>
@@ -366,7 +366,7 @@
 						android:drawableLeft="@drawable/legend_picture" />
 
 					<TextView
-						android:id="@+id/category_legend_theme"
+						android:id="@+id/category_legend_app"
 						style="@style/CategoryLegendStyleLand"
 						android:drawableLeft="@drawable/legend_theme" />
 

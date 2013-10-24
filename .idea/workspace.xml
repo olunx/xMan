@@ -15,184 +15,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773ee40a-80fc-43a9-a052-5bf11cb6fe88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/android-support-v13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/arrow_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/bottom_button_bar_normal.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/bottom_button_bar_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_bottom_last_normal.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_bottom_last_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_bottom_normal.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_bottom_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_check_off_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/btn_check_on_holo_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_apk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_apk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_document.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_document.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_mask.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_mask.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_other.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_other.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_bar_zip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_bar_zip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_button_bg_bottom.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_button_bg_left.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_button_bg_middle.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_button_bg_right.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_button_bg_selected.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_button_bg_selected.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/category_button_bg_top.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_icon_apk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_icon_document.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_icon_favorite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_icon_music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_icon_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_icon_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_icon_video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/category_icon_zip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/connect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/disconnect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dropdown.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dropdown_icon_folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dropdown_icon_root.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dropdown_normal.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dropdown_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/empty_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_mid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_mp3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_office.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_pdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_rar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_txt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_wav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_wma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/file_icon_zip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/folder_fav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_menu_delete_favorite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_menu_new_folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_menu_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_menu_select_all.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_menu_show_sys.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_menu_sort.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/image_icon_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/information_bg.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-land-hdpi/information_bg.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ipaddress_bg.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/legend_apk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/legend_document.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/legend_music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/legend_other.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/legend_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/legend_theme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/legend_video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/legend_zip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/notification.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_bar_bg.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_button_cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_button_copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_button_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_button_info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_button_info_gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_button_move.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_button_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_button_selectall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/operation_button_send.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/path_pane.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/path_pane_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/popup_bg.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/remote_button.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/remote_button_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sd_card_available_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sd_card_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sd_not_available.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/secondary_title_background.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/stat_sys_install_complete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/up_level.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/up_level_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/wifi_state0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/wifi_state4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/ActivitiesManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/view/CategoryBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileCategoryActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileCategoryHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileExplorerPreferenceActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileExplorerTabActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileIconHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/FileIconLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/FileInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/adapter/FileListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/adapter/FileListCursorAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/FileListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileOperationHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileSortHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileViewActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/listener/FileViewInteractionHub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/FilenameExtFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/FilenameOtherExtFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/GlobalConsts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/listener/IFileInteractionListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/view/InformationDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/IntentBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/MediaFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/MimeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/Settings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/view/TextInputDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/utils/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bottom_button_bar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_bottom_last.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/category_button_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/category_button_left.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/category_button_middle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/category_button_right.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/category_button_top.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/category_file_browser_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/color.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dropdown_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/dropdown_item_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/file_browser_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/file_explorer_category.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-land/file_explorer_category.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/file_explorer_list.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_pager.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/information_dialog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/operation_button_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/operation_menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/path_pane_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/path_up_level.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/xml/preferences.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/remote_button_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/xml/searchable.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/server_control_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/textinput_dialog.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xxdroid/xman/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileCategoryActivity.java" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileCategoryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileCategoryHelper.java" afterPath="$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileCategoryHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/file_explorer_category.xml" afterPath="$PROJECT_DIR$/res/layout/file_explorer_category.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/file_explorer_category.xml" afterPath="$PROJECT_DIR$/res/layout-land/file_explorer_category.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" afterPath="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xMan.iml" afterPath="$PROJECT_DIR$/xMan.iml" />
     </list>
     <ignored path="xMan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -256,27 +85,123 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FileCategoryActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FileCategoryActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileCategoryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="398" column="52" selection-start="13126" selection-end="13126" vertical-scroll-proportion="3.0328639" vertical-offset="3897" max-vertical-offset="8835">
+            <state line="160" column="45" selection-start="6062" selection-end="6062" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="8835">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1823#1846#0" expanded="true" />
-                <element signature="e#5653#5724#0" expanded="true" />
-                <element signature="e#5775#5850#0" expanded="true" />
-                <element signature="e#8463#8748#0" expanded="true" />
-                <element signature="e#8740#8741#0" expanded="true" />
-                <element signature="e#12752#12784#0" expanded="true" />
-                <element signature="e#15248#15271#0" expanded="true" />
-                <element signature="e#15396#15419#0" expanded="true" />
-                <element signature="e#15548#15573#0" expanded="true" />
-                <element signature="e#15698#15721#0" expanded="true" />
-                <element signature="e#15847#15873#0" expanded="true" />
-                <element signature="e#15994#16015#0" expanded="true" />
-                <element signature="e#16136#16157#0" expanded="true" />
-                <element signature="e#16282#16305#0" expanded="true" />
+                <element signature="e#5649#5720#0" expanded="true" />
+                <element signature="e#5771#5846#0" expanded="true" />
+                <element signature="e#8459#8744#0" expanded="true" />
+                <element signature="e#8736#8737#0" expanded="true" />
+                <element signature="e#12746#12778#0" expanded="true" />
+                <element signature="e#15238#15261#0" expanded="true" />
+                <element signature="e#15386#15409#0" expanded="true" />
+                <element signature="e#15538#15563#0" expanded="true" />
+                <element signature="e#15684#15705#0" expanded="true" />
+                <element signature="e#15831#15857#0" expanded="true" />
+                <element signature="e#15978#15999#0" expanded="true" />
+                <element signature="e#16120#16141#0" expanded="true" />
+                <element signature="e#16266#16289#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileListItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/FileListItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="13" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2685">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalConsts.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/GlobalConsts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="35" selection-start="293" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="41" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="5655">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileViewActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileViewActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="157" column="57" selection-start="6172" selection-end="6172" vertical-scroll-proportion="0.0" vertical-offset="2037" max-vertical-offset="6720">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2141#2151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileExplorerPreferenceActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileExplorerPreferenceActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="25" selection-start="2792" selection-end="2805" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1365">
+              <folding>
+                <element signature="e#2616#2690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileCategoryHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileCategoryHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="255" column="28" selection-start="8225" selection-end="8243" vertical-scroll-proportion="-0.07009346" vertical-offset="3825" max-vertical-offset="4665">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1510#1531#0" expanded="true" />
+                <element signature="e#1580#1603#0" expanded="true" />
+                <element signature="e#1652#1675#0" expanded="true" />
+                <element signature="e#1726#1751#0" expanded="true" />
+                <element signature="e#1798#1819#0" expanded="true" />
+                <element signature="e#1866#1892#0" expanded="true" />
+                <element signature="e#1939#1960#0" expanded="true" />
+                <element signature="e#2007#2028#0" expanded="true" />
+                <element signature="e#2077#2100#0" expanded="true" />
+                <element signature="e#2677#2678#0" expanded="true" />
+                <element signature="e#2706#2707#0" expanded="true" />
+                <element signature="e#3251#3279#0" expanded="true" />
+                <element signature="e#3350#3351#0" expanded="true" />
+                <element signature="e#3386#3387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_explorer_category.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-land/file_explorer_category.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="234" column="62" selection-start="6854" selection-end="6857" vertical-scroll-proportion="-3.8461537" vertical-offset="3310" max-vertical-offset="6300">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -306,15 +231,15 @@
         <option value="$PROJECT_DIR$/src/com/xxdroid/xman/utils/FavoriteItem.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/xxdroid/xman/utils/FileIconLoader.java" />
-        <option value="$PROJECT_DIR$/res/layout-land/file_explorer_category.xml" />
         <option value="$PROJECT_DIR$/src/com/xxdroid/xman/utils/Util.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/file_explorer_category.xml" />
-        <option value="$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileCategoryHelper.java" />
-        <option value="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/xxdroid/xman/listener/FileViewInteractionHub.java" />
-        <option value="$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileCategoryActivity.java" />
         <option value="$PROJECT_DIR$/src/com/xxdroid/xman/utils/GlobalConsts.java" />
+        <option value="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout-land/file_explorer_category.xml" />
+        <option value="$PROJECT_DIR$/res/layout/file_explorer_category.xml" />
+        <option value="$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileCategoryActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileCategoryHelper.java" />
       </list>
     </option>
   </component>
@@ -788,14 +713,14 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5926471" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4779412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -829,7 +754,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4779412" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -848,123 +773,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/menu/operation_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-land-hdpi/information_bg.9.png">
-      <provider editor-type-id="images">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="ninepatcheditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/folder_fav.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/folder.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/file_explorer_category.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="76" selection-start="11261" selection-end="11261" vertical-scroll-proportion="0.70098037" vertical-offset="2541" max-vertical-offset="4590">
-          <folding>
-            <element signature="e#3673#3690#0" expanded="true" />
-            <element signature="e#4897#4921#0" expanded="true" />
-            <element signature="e#6178#6202#0" expanded="true" />
-            <element signature="e#6858#6882#0" expanded="true" />
-            <element signature="e#7541#7567#0" expanded="true" />
-            <element signature="e#8501#8525#0" expanded="true" />
-            <element signature="e#9187#9214#0" expanded="true" />
-            <element signature="e#9868#9890#0" expanded="true" />
-            <element signature="e#10816#10838#0" expanded="true" />
-            <element signature="e#16371#16388#0" expanded="true" />
-            <element signature="e#16517#16543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/category_file_browser_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.04901961" vertical-offset="30" max-vertical-offset="1650">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileIconHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="35" selection-start="1059" selection-end="1072" vertical-scroll-proportion="0.5521472" vertical-offset="0" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileOperationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="362" selection-end="362" vertical-scroll-proportion="-3.685446" vertical-offset="2415" max-vertical-offset="4005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="396" column="43" selection-start="12884" selection-end="12884" vertical-scroll-proportion="0.0" vertical-offset="5003" max-vertical-offset="5655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileExplorerTabActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="3135">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.09202454" vertical-offset="0" max-vertical-offset="652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-zh-rCN/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileCategoryHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="5" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="623" max-vertical-offset="4590">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/GlobalConsts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="518" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/listener/FileViewInteractionHub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="823" column="41" selection-start="28577" selection-end="28577" vertical-scroll-proportion="0.0" vertical-offset="14421" max-vertical-offset="15060">
@@ -974,25 +782,164 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-zh-rCN/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="30" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/file_explorer_category.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="52" selection-start="1765" selection-end="1768" vertical-scroll-proportion="-3.8461537" vertical-offset="310" max-vertical-offset="4590">
+          <folding>
+            <element signature="e#3673#3690#0" expanded="true" />
+            <element signature="e#4897#4921#0" expanded="true" />
+            <element signature="e#6178#6202#0" expanded="true" />
+            <element signature="e#6858#6882#0" expanded="true" />
+            <element signature="e#7541#7567#0" expanded="true" />
+            <element signature="e#8499#8521#0" expanded="true" />
+            <element signature="e#9181#9208#0" expanded="true" />
+            <element signature="e#9862#9884#0" expanded="true" />
+            <element signature="e#10810#10832#0" expanded="true" />
+            <element signature="e#16363#16380#0" expanded="true" />
+            <element signature="e#16509#16535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/file_explorer_category.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="62" selection-start="6854" selection-end="6857" vertical-scroll-proportion="-3.8461537" vertical-offset="3310" max-vertical-offset="6300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android/android-sdk-macosx/sources/android-15/android/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="893" column="16" selection-start="33545" selection-end="33545" vertical-scroll-proportion="0.3317757" vertical-offset="12233" max-vertical-offset="22455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileCategoryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="398" column="52" selection-start="13126" selection-end="13126" vertical-scroll-proportion="3.0328639" vertical-offset="3897" max-vertical-offset="8835">
+        <state line="160" column="45" selection-start="6062" selection-end="6062" vertical-scroll-proportion="0.0" vertical-offset="2007" max-vertical-offset="8835">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1823#1846#0" expanded="true" />
-            <element signature="e#5653#5724#0" expanded="true" />
-            <element signature="e#5775#5850#0" expanded="true" />
-            <element signature="e#8463#8748#0" expanded="true" />
-            <element signature="e#8740#8741#0" expanded="true" />
-            <element signature="e#12752#12784#0" expanded="true" />
-            <element signature="e#15248#15271#0" expanded="true" />
-            <element signature="e#15396#15419#0" expanded="true" />
-            <element signature="e#15548#15573#0" expanded="true" />
-            <element signature="e#15698#15721#0" expanded="true" />
-            <element signature="e#15847#15873#0" expanded="true" />
-            <element signature="e#15994#16015#0" expanded="true" />
-            <element signature="e#16136#16157#0" expanded="true" />
-            <element signature="e#16282#16305#0" expanded="true" />
+            <element signature="e#5649#5720#0" expanded="true" />
+            <element signature="e#5771#5846#0" expanded="true" />
+            <element signature="e#8459#8744#0" expanded="true" />
+            <element signature="e#8736#8737#0" expanded="true" />
+            <element signature="e#12746#12778#0" expanded="true" />
+            <element signature="e#15238#15261#0" expanded="true" />
+            <element signature="e#15386#15409#0" expanded="true" />
+            <element signature="e#15538#15563#0" expanded="true" />
+            <element signature="e#15684#15705#0" expanded="true" />
+            <element signature="e#15831#15857#0" expanded="true" />
+            <element signature="e#15978#15999#0" expanded="true" />
+            <element signature="e#16120#16141#0" expanded="true" />
+            <element signature="e#16266#16289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/FileListItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="2685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/GlobalConsts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="293" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/utils/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="41" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="5655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="57" selection-start="6172" selection-end="6172" vertical-scroll-proportion="0.0" vertical-offset="2037" max-vertical-offset="6720">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2141#2151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../android/android-sdk-macosx/sources/android-15/android/text/TextUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="13" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.21028037" vertical-offset="0" max-vertical-offset="24540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/ui/FileExplorerPreferenceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="25" selection-start="2792" selection-end="2805" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1365">
+          <folding>
+            <element signature="e#2616#2690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xxdroid/xman/helper/FileCategoryHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="255" column="28" selection-start="8225" selection-end="8243" vertical-scroll-proportion="-0.07009346" vertical-offset="3825" max-vertical-offset="4665">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1510#1531#0" expanded="true" />
+            <element signature="e#1580#1603#0" expanded="true" />
+            <element signature="e#1652#1675#0" expanded="true" />
+            <element signature="e#1726#1751#0" expanded="true" />
+            <element signature="e#1798#1819#0" expanded="true" />
+            <element signature="e#1866#1892#0" expanded="true" />
+            <element signature="e#1939#1960#0" expanded="true" />
+            <element signature="e#2007#2028#0" expanded="true" />
+            <element signature="e#2077#2100#0" expanded="true" />
+            <element signature="e#2677#2678#0" expanded="true" />
+            <element signature="e#2706#2707#0" expanded="true" />
+            <element signature="e#3251#3279#0" expanded="true" />
+            <element signature="e#3350#3351#0" expanded="true" />
+            <element signature="e#3386#3387#0" expanded="true" />
           </folding>
         </state>
       </provider>

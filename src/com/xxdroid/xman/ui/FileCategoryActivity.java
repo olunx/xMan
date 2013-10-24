@@ -86,7 +86,7 @@ public class FileCategoryActivity extends Fragment implements IFileInteractionLi
         button2Category.put(R.id.category_music, FileCategory.Music);
         button2Category.put(R.id.category_video, FileCategory.Video);
         button2Category.put(R.id.category_picture, FileCategory.Picture);
-        button2Category.put(R.id.category_theme, FileCategory.Theme);
+        button2Category.put(R.id.category_app, FileCategory.App);
         button2Category.put(R.id.category_document, FileCategory.Doc);
         button2Category.put(R.id.category_zip, FileCategory.Zip);
         button2Category.put(R.id.category_apk, FileCategory.Apk);
@@ -275,7 +275,7 @@ public class FileCategoryActivity extends Fragment implements IFileInteractionLi
         setupClick(R.id.category_music);
         setupClick(R.id.category_video);
         setupClick(R.id.category_picture);
-        setupClick(R.id.category_theme);
+        setupClick(R.id.category_app);
         setupClick(R.id.category_document);
         setupClick(R.id.category_zip);
         setupClick(R.id.category_apk);
@@ -454,8 +454,8 @@ public class FileCategoryActivity extends Fragment implements IFileInteractionLi
                 return R.id.category_video_count;
             case Picture:
                 return R.id.category_picture_count;
-            case Theme:
-                return R.id.category_theme_count;
+            case App:
+                return R.id.category_app_count;
             case Doc:
                 return R.id.category_document_count;
             case Zip:
@@ -483,9 +483,9 @@ public class FileCategoryActivity extends Fragment implements IFileInteractionLi
                 txtId = R.id.category_legend_picture;
                 resId = R.string.category_picture;
                 break;
-            case Theme:
-                txtId = R.id.category_legend_theme;
-                resId = R.string.category_theme;
+            case App:
+                txtId = R.id.category_legend_app;
+                resId = R.string.category_app;
                 break;
             case Doc:
                 txtId = R.id.category_legend_document;

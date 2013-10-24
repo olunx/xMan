@@ -33,7 +33,7 @@ public class FileCategoryHelper {
     private static final String LOG_TAG = "FileCategoryHelper";
 
     public enum FileCategory {
-        All, Music, Video, Picture, Theme, Doc, Zip, Apk, Custom, Other
+        All, Music, Video, Picture, App, Doc, Zip, Apk, Custom, Other
     }
 
     private static String APK_EXT = "apk";
@@ -51,7 +51,7 @@ public class FileCategoryHelper {
         categoryNames.put(FileCategory.Music, R.string.category_music);
         categoryNames.put(FileCategory.Video, R.string.category_video);
         categoryNames.put(FileCategory.Picture, R.string.category_picture);
-        categoryNames.put(FileCategory.Theme, R.string.category_theme);
+        categoryNames.put(FileCategory.App, R.string.category_app);
         categoryNames.put(FileCategory.Doc, R.string.category_document);
         categoryNames.put(FileCategory.Zip, R.string.category_zip);
         categoryNames.put(FileCategory.Apk, R.string.category_apk);
@@ -59,7 +59,7 @@ public class FileCategoryHelper {
     }
 
     public static FileCategory[] sCategories = new FileCategory[] {
-            FileCategory.Music, FileCategory.Video, FileCategory.Picture, FileCategory.Theme,
+            FileCategory.Music, FileCategory.Video, FileCategory.Picture, FileCategory.App,
             FileCategory.Doc, FileCategory.Zip, FileCategory.Apk, FileCategory.Other
     };
 
@@ -143,7 +143,7 @@ public class FileCategoryHelper {
     private String buildSelectionByCategory(FileCategory cat) {
         String selection = null;
         switch (cat) {
-            case Theme:
+            case App:
                 selection = FileColumns.DATA + " LIKE '%.mtz'";
                 break;
             case Doc:
@@ -165,7 +165,7 @@ public class FileCategoryHelper {
         Uri uri;
         String volumeName = "external";
         switch(cat) {
-            case Theme:
+            case App:
             case Doc:
             case Zip:
             case Apk:
@@ -241,7 +241,7 @@ public class FileCategoryHelper {
         refreshMediaCategory(FileCategory.Picture, uri);
 
         uri = Files.getContentUri(volumeName);
-        refreshMediaCategory(FileCategory.Theme, uri);
+        refreshMediaCategory(FileCategory.App, uri);
         refreshMediaCategory(FileCategory.Doc, uri);
         refreshMediaCategory(FileCategory.Zip, uri);
         refreshMediaCategory(FileCategory.Apk, uri);
@@ -285,8 +285,9 @@ public class FileCategoryHelper {
         if (ext.equalsIgnoreCase(APK_EXT)) {
             return FileCategory.Apk;
         }
+
         if (ext.equalsIgnoreCase(THEME_EXT)) {
-            return FileCategory.Theme;
+            return FileCategory.App;
         }
 
         if (matchExts(ext, ZIP_EXTS)) {
