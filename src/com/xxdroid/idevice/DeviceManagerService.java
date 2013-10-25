@@ -1,5 +1,7 @@
 package com.xxdroid.idevice;
 
+import android.util.Log;
+
 import com.google.common.collect.Lists;
 
 import java.io.UnsupportedEncodingException;
@@ -7,7 +9,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.logging.Logger;
 
 public class DeviceManagerService {
 
@@ -28,29 +29,25 @@ public class DeviceManagerService {
 
     public native String getDeviceInfoNative(String uuid);
 
+    private static String TAG = "DeviceManagerService";
     private final DeviceDetector detector;
     private Thread listeningThread;
     private final Map<String, DeviceInfo> deviceByUuid = new HashMap<String, DeviceInfo>();
     private volatile boolean run = true;
     private volatile boolean running = false;
-    private static final Logger log = Logger.getLogger(DeviceManagerService.class.getName());
     private static DeviceManagerService INSTANCE;
 
 
     public synchronized static DeviceManagerService create(DeviceDetector detector) {
         if (INSTANCE == null) {
             INSTANCE = new DeviceManagerService(detector);
-            return INSTANCE;
-        } else if (INSTANCE.running) {
-            throw new IllegalStateException("Only one connection to USB is allowed.");
-        } else {
-            return INSTANCE;
         }
+        return INSTANCE;
     }
 
     public synchronized static DeviceManagerService getInstance() {
         if (INSTANCE == null) {
-            throw new IllegalStateException("You need to create the instance passing a detector first.");
+            Log.e(TAG, "You need to create the instance passing a detector first.");
         }
         return INSTANCE;
     }
@@ -66,10 +63,9 @@ public class DeviceManagerService {
     private DeviceInfo getDeviceInfo(String uuid) {
         String xml = getDeviceInfoNative(uuid);
         try {
-            // it is there for a reason.
             xml = new String(xml.getBytes("UTF-8"));
         } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
         return new DeviceInfo(xml);
     }
@@ -77,7 +73,7 @@ public class DeviceManagerService {
 
     public synchronized void startDetection() {
         if (running) {
-            log.warning("already running. Only 1 instance allowed.");
+            Log.e(TAG, "already running. Only 1 instance allowed.");
         }
         listeningThread = new Thread(new Runnable() {
             @Override
@@ -123,7 +119,7 @@ public class DeviceManagerService {
             } catch (InterruptedException e) {
                 // ignore.
             }
-            log.warning("waiting for the listener thread to finish.");
+            Log.e(TAG, "waiting for the listener thread to finish.");
         }
     }
 

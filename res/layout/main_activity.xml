@@ -4,34 +4,52 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="install"
-        android:id="@+id/btnInstall"
-        android:layout_gravity="center_horizontal"
-        android:onClick="onClick" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="run"
-        android:id="@+id/btnRun"
-        android:layout_gravity="center_horizontal"
-        android:onClick="onClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="install"
+            android:id="@+id/btnInstall"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="getinfo"
-        android:id="@+id/btnGetinfo"
-        android:layout_gravity="center_horizontal"
-        android:onClick="onClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="usbmuxd"
+            android:id="@+id/btnUsbmuxd"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick" />
 
-    <TextView
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ideviceid"
+            android:id="@+id/btnIdeviceid"
+            android:onClick="onClick" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ideviceinfo"
+            android:id="@+id/btnIdeviceinfo"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+    </ScrollView>
+
 </LinearLayout>

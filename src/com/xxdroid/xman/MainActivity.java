@@ -17,17 +17,21 @@ import com.xxdroid.idevice.DeviceDetector;
 import com.xxdroid.idevice.DeviceInfo;
 import com.xxdroid.idevice.DeviceManagerService;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 public class MainActivity extends Activity {
 
+    private String busybox = "busybox";
     private String usbmuxd = "usbmuxdd";
     private String ideviceid = "ideviceid";
     private String ideviceinfo = "ideviceinfo";
 
     private TextView textView;
     private Handler handler;
+
+    private String appPath;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,105 +49,116 @@ public class MainActivity extends Activity {
                 textView.setText(textView.getText() + " " + bundle.getString("msg") + " \n");
             }
         };
+
+        appPath = getApplicationInfo().dataDir;
+        textView.setText("appPath: " + appPath + "\n");
+
     }
 
     public void onClick(View view){
         switch (view.getId()){
             case R.id.btnInstall:{
-                LogUtils.d("binary install");
-                RootTools.installBinary(this, R.raw.usbmuxdd, usbmuxd);
-                RootTools.installBinary(this, R.raw.ideviceid, ideviceid);
-                RootTools.installBinary(this, R.raw.ideviceinfo, ideviceinfo);
+                installBin();
+                textView.setText(textView.getText() + " binary installed" + " \n");
+                LogUtils.d("binary installed");
                 break;
             }
-            case R.id.btnRun:{
-                if(RootTools.hasBinary(this, usbmuxd)){
-                    LogUtils.d("binary found");
-//                    RootTools.runBinary(this, usbmuxd, "");
-
-                    Command command = new Command(0,
-                            "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data/data/com.xxdroid.xman/lib",
-                            "/data/data/com.xxdroid.xman/files/usbmuxdd",
-                            "/data/data/com.xxdroid.xman/files/ideviceid -l",
-                            "/data/data/com.xxdroid.xman/files/ideviceinfo",
-                            "ps | grep usb"){
-                        @Override
-                        public void commandOutput(int i, String s) {
-                            LogUtils.d("commandOutput");
-                            LogUtils.d(s);
-                        }
-
-                        @Override
-                        public void commandTerminated(int i, String s) {
-                            LogUtils.d("commandTerminated");
-                            LogUtils.d(s);
-                        }
-
-                        @Override
-                        public void commandCompleted(int i, int i2) {
-                            LogUtils.d("commandCompleted");
-
-                            Bundle bundle = new Bundle();
-                            bundle.putString("msg", "commandCompleted");
-                            Message msg = new Message();
-                            msg.setData(bundle);
-                            handler.sendMessage(msg);
-                        }
-
-                        @Override
-                        public void output(int id, String line){
-                            LogUtils.d("output");
-
-                            Bundle bundle = new Bundle();
-                            bundle.putString("msg", line);
-                            Message msg = new Message();
-                            msg.setData(bundle);
-                            handler.sendMessage(msg);
-                        }
-                    };
-
-                    try {
-                        RootTools.getShell(true).add(command);
-                    } catch (TimeoutException e) {
-                        LogUtils.e("TimeoutException", e);
-                    } catch (IOException e) {
-                        LogUtils.e("IOException", e);
-                    } catch (RootDeniedException e) {
-                        LogUtils.e("RootDeniedException", e);;
-                    }
-
-                }else{
-                    LogUtils.d("usbmuxd no found");
-                }
+            case R.id.btnUsbmuxd:{
+                Command command = new XCommand(0,
+                        exportLib(),
+                        getBinPath(usbmuxd),
+                        getBinPath(busybox) + " ps | " + getBinPath(busybox) + " grep usbmuxd");
+                runCommand(command);
                 break;
             }
-            case R.id.btnGetinfo:{
-                DeviceDetector detector = new DeviceDetector() {
-                    @Override
-                    public void onDeviceAdded(DeviceInfo deviceInfo) {
-                        System.out.println(
-                                "added " + deviceInfo.getDeviceName() + " running " + deviceInfo.getProductVersion());
-                        System.out.println(deviceInfo.toString());
-                    }
-
-                    @Override
-                    public void onDeviceRemoved(DeviceInfo deviceInfo) {
-                        System.out.println("device unplugged :" + deviceInfo.getDeviceName());
-                    }
-                };
-                DeviceManagerService manager = DeviceManagerService.create(detector);
-                manager.startDetection();
-                try{
-                    Thread.sleep(1000);
-                }catch (InterruptedException e){
-                    LogUtils.e("InterruptedException", e);
-                }
-                manager.stopDetection();
+            case R.id.btnIdeviceid:{
+                Command command = new XCommand(0,
+                        exportLib(),
+                        getBinPath(ideviceid + " -l")
+                );
+                runCommand(command);
+                break;
+            }
+            case R.id.btnIdeviceinfo:{
+                Command command = new XCommand(0,
+                        exportLib(),
+                        getBinPath(ideviceinfo)
+                );
+                runCommand(command);
                 break;
             }
         }
 
+    }
 
+    class XCommand extends Command{
+        public XCommand(int id, String... command) {
+            super(id, command);
+        }
 
+        @Override
+        public void commandOutput(int i, String s) {
+            LogUtils.d("commandOutput");
+            sendText("commandOutput");
+            sendText(s);
+        }
+
+        @Override
+        public void commandTerminated(int i, String s) {
+            LogUtils.d("commandTerminated");
+            sendText("commandTerminated");
+            sendText(s);
+        }
+
+        @Override
+        public void commandCompleted(int i, int i2) {
+            LogUtils.d("commandCompleted");
+            sendText("commandCompleted");
+        }
+
+        @Override
+        public void output(int id, String line){
+            LogUtils.d("output");
+            sendText(line);
+        }
+    }
+
+    private void sendText(String value){
+        Bundle bundle = new Bundle();
+        bundle.putString("msg", value + "\n");
+        Message msg = new Message();
+        msg.setData(bundle);
+        handler.sendMessage(msg);
+    }
+
+    private void installBin(){
+        RootTools.installBinary(this, R.raw.usbmuxdd, usbmuxd);
+        RootTools.installBinary(this, R.raw.busybox_armv7, busybox);
+        RootTools.installBinary(this, R.raw.ideviceid, ideviceid);
+        RootTools.installBinary(this, R.raw.ideviceinfo, ideviceinfo);
+    }
+
+    private String exportLib(){
+        String result = "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:" + appPath + "/lib";
+        LogUtils.d(result);
+        return result;
+    }
+
+    private String getBinPath(String bin){
+        String path = appPath + "/files/" + bin;
+        LogUtils.d(path);
+        return path;
+    }
+
+    private void runCommand(Command command){
+        try {
+            RootTools.getShell(true).add(command);
+        } catch (TimeoutException e) {
+            LogUtils.e("TimeoutException", e);
+        } catch (IOException e) {
+            LogUtils.e("IOException", e);
+        } catch (RootDeniedException e) {
+            LogUtils.e("RootDeniedException", e);;
+        }
     }
 }
