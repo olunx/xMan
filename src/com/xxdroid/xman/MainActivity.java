@@ -1,6 +1,13 @@
 package com.xxdroid.xman;
 
 import android.app.Activity;
+import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.hardware.usb.UsbDevice;
+import android.hardware.usb.UsbManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -16,6 +23,7 @@ import com.stericson.RootTools.execution.CommandCapture;
 import com.xxdroid.idevice.DeviceDetector;
 import com.xxdroid.idevice.DeviceInfo;
 import com.xxdroid.idevice.DeviceManagerService;
+import com.xxdroid.idevice.UsbReceiver;
 
 import java.io.File;
 import java.io.IOException;
@@ -53,6 +61,14 @@ public class MainActivity extends Activity {
         appPath = getApplicationInfo().dataDir;
         textView.setText("appPath: " + appPath + "\n");
 
+        LogUtils.e("new UsbReceiver-------------------------------------");
+        UsbReceiver usbReceiver = new UsbReceiver();
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(UsbManager.ACTION_USB_DEVICE_ATTACHED);
+        filter.addAction(UsbManager.ACTION_USB_DEVICE_DETACHED);
+//        filter.addAction(UsbManager.ACTION_USB_ACCESSORY_ATTACHED);
+//        filter.addAction(UsbManager.ACTION_USB_ACCESSORY_DETACHED);
+        registerReceiver(usbReceiver, filter);
     }
 
     public void onClick(View view){

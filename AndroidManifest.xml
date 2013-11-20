@@ -14,6 +14,10 @@
     <uses-permission android:name="android.permission.DELETE_PACKAGES" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+    <uses-permission android:name="android.permission.USB_PERMISSION" />
+    <uses-feature android:name="android.hardware.usb.host"/>
 	
     <application
 		        android:icon="@drawable/icon"
@@ -32,23 +36,18 @@
 		            </intent-filter>
 		            <intent-filter >
 		                <action android:name="android.intent.action.PICK" />
-
 		                <category android:name="android.intent.category.DEFAULT" />
-
 		                <action android:name="android.intent.action.MEDIA_MOUNTED" />
 		                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
-
 		                <data android:scheme="file" />
 		            </intent-filter>
 		            <intent-filter >
 		                <action android:name="android.intent.action.GET_CONTENT" />
-
 		                <category android:name="android.intent.category.OPENABLE" />
 		                <category android:name="android.intent.category.DEFAULT" />
-
 		                <data android:mimeType="*/*" />
 		            </intent-filter>
-		        </activity>
+                </activity>
 
 		        <activity
 		            android:label="@string/menu_setting"
@@ -56,10 +55,22 @@
 		            android:name=".ui.FileExplorerPreferenceActivity"
 		            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
 		        </activity>
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchActivity" />
 
-		        <meta-data
-		            android:name="android.app.default_searchable"
-		            android:value=".SearchActivity" />
+
+                <uses-library android:name="com.android.future.usb.accessory" />
+                <receiver android:name="com.xxdroid.idevice.UsbReceiver">
+                    <intent-filter>
+                        <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+                        <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+                    </intent-filter>
+                    <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                        android:resource="@xml/ios_devices"/>
+                    <meta-data android:name="android.hardware.usb.action.USB_DEVICE_DETACHED"
+                        android:resource="@xml/ios_devices"/>
+                </receiver>
 
     </application>
 </manifest>
