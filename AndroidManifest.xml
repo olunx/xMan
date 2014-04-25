@@ -22,7 +22,9 @@
             android:name=".MainActivity"
             android:configChanges="screenSize|keyboardHidden"
             android:screenOrientation="sensor"
-            android:uiOptions="splitActionBarWhenNarrow">
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:launchMode="singleTask"
+                >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
