@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <usb-device vendor-id="05ac" />
+    <!-- 0x05ac : Apple -->
+    <!--<usb-device vendor-id="1452" />-->
     <!-- 0x05ac / 0x1290: iPhone -->
-    <!--<usb-device vendor-id="05ac" product-id="1290" />-->
+    <usb-device vendor-id="1452" product-id="4752" />
     <!-- 0x05ac / 0x1292: iPhone 3g -->
-    <!--<usb-device vendor-id="05ac" product-id="1292" />-->
+    <usb-device vendor-id="1452" product-id="4754" />
     <!-- 0x05ac / 0x1294: iPhone 3gs -->
-    <!--<usb-device vendor-id="05ac" product-id="1294" />-->
+    <usb-device vendor-id="1452" product-id="4756" />
     <!-- 0x05ac / 0x1297: iPhone 4 -->
-    <!--<usb-device vendor-id="05ac" product-id="1297" />-->
+    <usb-device vendor-id="1452" product-id="4759" />
     <!-- 0x05ac / 0x12a0: iPhone 4s  -->
-    <!--<usb-device vendor-id="05ac" product-id="12a0" />-->
+    <usb-device vendor-id="1452" product-id="4768" />
     <!-- 0x05ac / 0x12a8: iPhone 5/5c/5s  -->
-    <!--<usb-device vendor-id="05ac" product-id="12a8" />-->
+    <usb-device vendor-id="1452" product-id="4776" />
 
-    <usb-device vendor-id="2717" />
+    <!-- filter for PTP devices -->
+    <!--<usb-device class="6" subclass="1" protocol="1" />-->
+
+    <!-- 0x2717 : Xiaomi -->
+    <!--<usb-device vendor-id="10007" />-->
     <!-- 0x2717 / 0x9039: Xiaomi 2s  -->
-    <!--<usb-device vendor-id="2717" product-id="9039" />-->
+    <usb-device vendor-id="10007" product-id="36921" />
 </resources>

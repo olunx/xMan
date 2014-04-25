@@ -1,12 +1,16 @@
 package com.xxdroid.xman;
 
 import android.app.Activity;
+import android.content.Context;
+import android.hardware.usb.UsbDevice;
+import android.hardware.usb.UsbManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
 import android.widget.TextView;
 
+import android.widget.Toast;
 import com.lidroid.xutils.util.LogUtils;
 import com.stericson.RootTools.RootTools;
 import com.stericson.RootTools.exceptions.RootDeniedException;
@@ -42,6 +46,28 @@ public class MainActivity extends Activity {
         appPath = getApplicationInfo().dataDir;
         textView.setText("appPath: " + appPath + "\n");
 
+//        LogUtils.e("new UsbReceiver-------------------------------------");
+//        UsbReceiver usbReceiver = new UsbReceiver();
+//        IntentFilter filter = new IntentFilter();
+//        filter.addAction(UsbManager.ACTION_USB_DEVICE_ATTACHED);
+//        filter.addAction(UsbManager.ACTION_USB_DEVICE_DETACHED);
+//        filter.addAction(UsbManager.ACTION_USB_ACCESSORY_ATTACHED);
+//        filter.addAction(UsbManager.ACTION_USB_ACCESSORY_DETACHED);
+//        registerReceiver(usbReceiver, filter);
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        UsbManager usbManager = (UsbManager)getSystemService(Context.USB_SERVICE);
+        for (UsbDevice device : usbManager.getDeviceList().values()){
+            String title = String.format("Vendor %s Product %s",
+                    HexDump.toHexString((short) device.getVendorId()),
+                    HexDump.toHexString((short) device.getProductId()));
+            Toast.makeText(this, "xMan usb: " + title, Toast.LENGTH_LONG).show();
+            LogUtils.e("xMan usb: " + title);
+        }
     }
 
     public void onClick(View view){
