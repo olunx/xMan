@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <usb-device vendor-id="05ac" />
+    <!-- 0x05ac / 0x1290: iPhone -->
+    <!--<usb-device vendor-id="05ac" product-id="1290" />-->
+    <!-- 0x05ac / 0x1292: iPhone 3g -->
+    <!--<usb-device vendor-id="05ac" product-id="1292" />-->
+    <!-- 0x05ac / 0x1294: iPhone 3gs -->
+    <!--<usb-device vendor-id="05ac" product-id="1294" />-->
+    <!-- 0x05ac / 0x1297: iPhone 4 -->
+    <!--<usb-device vendor-id="05ac" product-id="1297" />-->
+    <!-- 0x05ac / 0x12a0: iPhone 4s  -->
+    <!--<usb-device vendor-id="05ac" product-id="12a0" />-->
+    <!-- 0x05ac / 0x12a8: iPhone 5/5c/5s  -->
+    <!--<usb-device vendor-id="05ac" product-id="12a8" />-->
+
+    <usb-device vendor-id="2717" />
+    <!-- 0x2717 / 0x9039: Xiaomi 2s  -->
+    <!--<usb-device vendor-id="2717" product-id="9039" />-->
+</resources>

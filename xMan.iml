@@ -15,9 +15,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android 4.4.2" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="android-support-v13" level="project" />
     <orderEntry type="library" name="xUtils-1.7.8" level="project" />
     <orderEntry type="library" name="guava-15.0" level="project" />
     <orderEntry type="library" name="dd-plist" level="project" />
