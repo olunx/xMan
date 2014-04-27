@@ -14,7 +14,6 @@ public class UsbDetachReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        LogUtils.e("onReceive UsbReceiver-------------------------------------");
         Toast.makeText(context, "xMan UsbDetachReceiver", Toast.LENGTH_LONG).show();
     }
 

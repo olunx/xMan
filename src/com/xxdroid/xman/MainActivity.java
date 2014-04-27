@@ -10,12 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
 
-import com.lidroid.xutils.util.LogUtils;
 import com.stericson.RootTools.RootTools;
 import com.stericson.RootTools.exceptions.RootDeniedException;
 import com.stericson.RootTools.execution.Command;
+import com.stericson.RootTools.execution.CommandCapture;
+import com.xxdroid.xman.helper.IDeviceHelper;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -79,6 +79,7 @@ public class MainActivity extends Activity {
                 row.getText1().setText(title);
 
                 final String subtitle = DeviceUtils.getInstance().getDeviceDesc(device.getVendorId(), device.getProductId());
+//                final String subtitle = device.getDeviceId() + " " + device.getDeviceName() + " " + device.getDeviceProtocol();
                 row.getText2().setText(subtitle);
 
                 return row;
@@ -90,32 +91,20 @@ public class MainActivity extends Activity {
         mListView.setOnItemClickListener(new ListView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                LogUtils.d("Pressed item " + position);
+                RootTools.log("Pressed item " + position);
                 if (position >= mEntries.size()) {
-                    LogUtils.w("Illegal position.");
+                    RootTools.log("Illegal position.");
                     return;
                 }
 
-                if(!RootTools.isProcessRunning("usbmuxdd")){
-                    installBin();
-                    XCommand usbmuxd = new XCommand(0,
-                            exportLib(),
-                            getBinPath("usbmuxdd -v")
-                    );
-                    runCommand(usbmuxd);
-                }
-;               XCommand ideviceId = new XCommand(0,
-                    exportLib(),
-                    getBinPath("ideviceid -l")
-                );
-                runCommand(ideviceId);
-                XCommand ideviceInfo = new XCommand(0,
-                        exportLib(),
-                        getBinPath("ideviceinfo")
-                );
-                runCommand(ideviceInfo);
+//                IDeviceHelper.getInstance().getDeviceId(getApplicationContext());
+                IDeviceHelper.getInstance().getDeviceInfo(getApplicationContext());
             }
         });
+
+        //init usbmuxd
+        RootTools.debugMode = true;
+        IDeviceHelper.getInstance().initUsbMuxd(getApplicationContext());
     }
 
     @Override
@@ -136,7 +125,7 @@ public class MainActivity extends Activity {
         new AsyncTask<Void, Void, List<UsbDevice>>() {
             @Override
             protected List<UsbDevice> doInBackground(Void... params) {
-//                LogUtils.d("Refreshing device list ...");
+//                RootTools.log("Refreshing device list ...");
                 SystemClock.sleep(1000);
                 final List<UsbDevice> result = new ArrayList<UsbDevice>();
                 for (final UsbDevice device : mUsbManager.getDeviceList().values()) {
@@ -153,7 +142,7 @@ public class MainActivity extends Activity {
                 mProgressBarTitle.setText(
                         String.format("%s device(s) found",Integer.valueOf(mEntries.size())));
                 hideProgressBar();
-//                LogUtils.d("Done refreshing, " + mEntries.size() + " entries found.");
+//                RootTools.log("Done refreshing, " + mEntries.size() + " entries found.");
             }
 
         }.execute((Void) null);
@@ -168,66 +157,4 @@ public class MainActivity extends Activity {
         mProgressBar.setVisibility(View.INVISIBLE);
     }
 
-
-    class XCommand extends Command{
-        public XCommand(int id, String... command) {
-            super(id, command);
-        }
-
-        @Override
-        public void commandOutput(int i, String line) {
-            LogUtils.d("commandOutput");
-            LogUtils.d(line);
-        }
-
-        @Override
-        public void commandTerminated(int i, String s) {
-            LogUtils.d("commandTerminated");
-        }
-
-        @Override
-        public void commandCompleted(int i, int i2) {
-            LogUtils.d("commandCompleted");
-        }
-
-        @Override
-        public void output(int id, String line){
-            LogUtils.d("output");
-            LogUtils.d(line);
-        }
-    }
-
-    private void runCommand(Command command){
-        try {
-            RootTools.getShell(true).add(command);
-        } catch (TimeoutException e) {
-            LogUtils.e("TimeoutException", e);
-        } catch (IOException e) {
-            LogUtils.e("IOException", e);
-        } catch (RootDeniedException e) {
-            LogUtils.e("RootDeniedException", e);;
-        }
-    }
-
-    private String exportLib(){
-        String result = "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:" + getApplicationInfo().nativeLibraryDir;
-        LogUtils.d(result);
-        return result;
-    }
-
-    private String getBinPath(String bin){
-        String result = getApplicationInfo().dataDir + "/files/" + bin;
-        LogUtils.d(result);
-        return result;
-    }
-
-    private String busybox = "busybox";
-    private String usbmuxd = "usbmuxdd";
-    private String ideviceid = "ideviceid";
-    private String ideviceinfo = "ideviceinfo";
-    private void installBin(){
-        RootTools.installBinary(this, R.raw.usbmuxdd, usbmuxd);
-        RootTools.installBinary(this, R.raw.ideviceid, ideviceid);
-        RootTools.installBinary(this, R.raw.ideviceinfo, ideviceinfo);
-    }
 }
